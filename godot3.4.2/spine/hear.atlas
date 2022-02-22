@@ -1,0 +1,27 @@
+
+hear.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kinon_hair
+  rotate: false
+  xy: 764, 1083
+  size: 761, 571
+  orig: 761, 571
+  offset: 0, 0
+  index: -1
+kinon_base_sotai
+  rotate: false
+  xy: 1, 1
+  size: 894, 1080
+  orig: 1001, 1080
+  offset: 54, 0
+  index: -1
+kinon_kami
+  rotate: false
+  xy: 1, 1083
+  size: 761, 571
+  orig: 761, 571
+  offset: 0, 0
+  index: -1

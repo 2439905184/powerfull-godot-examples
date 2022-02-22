@@ -1,0 +1,43 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://godot3.4.2/bin/hear_tex.png" type="Texture" id=1]
+[ext_resource path="res://godot3.4.2/bin/hear_ske.dbbin" type="GDDragonBonesResource" id=2]
+[ext_resource path="res://Node2D.gd" type="Script" id=3]
+[ext_resource path="res://Alibaba-PuHuiTi-Regular.otf" type="DynamicFontData" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 20
+font_data = ExtResource( 4 )
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 3 )
+__meta__ = {
+"_editor_description_": "图片像素不能太大比如2048x2048
+会报错"
+}
+
+[node name="GDDragonBones" type="GDDragonBones" parent="."]
+position = Vector2( 794, 287 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 1 )
+resource = ExtResource( 2 )
+
+[node name="SpineSprite" type="SpineSprite" parent="."]
+
+[node name="Label" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 1 )
+text = "  这个是godot功能增强版demo，右边这个角色是利用dragonbones制作的
+左边这个角色是利用spine制作的，但我没有spine的模型，所以展示不了
+此项目的spine基于rayxuln/spine-runtime-for-godot的spine-4.0分支
+需要spine-3.8的请自行修改actions云编译配置文件参数，自行编译
+  此项目的dragonbones基于sanja-sa/gddragonbones的3.4分支
+
+龙骨模型使用注意事项：图集大小不能超过2048x2048否则程序报错。
+另外新版本的龙骨需要用二进制的模型文件而不是json格式。
+文件在res://godot3.4.2/bin/hear_ske.dbbin
+龙骨编辑器需要是5.6.x范围里的"
+__meta__ = {
+"_edit_use_anchors_": false
+}

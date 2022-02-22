@@ -1,0 +1,13 @@
+[remap]
+
+importer="raiix.spine_runtime.json"
+type="SpineSkeletonJsonDataResource"
+path="res://.import/shake_tex.json-299f9ada5e00864b2b9b3cb8e195087d.spjson"
+
+[deps]
+
+source_file="res://shake_tex.json"
+dest_files=[ "res://.import/shake_tex.json-299f9ada5e00864b2b9b3cb8e195087d.spjson" ]
+
+[params]
+

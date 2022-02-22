@@ -1,0 +1,13 @@
+[remap]
+
+importer="raiix.spine_runtime.json"
+type="SpineSkeletonJsonDataResource"
+path="res://.import/hear_tex.json-0a28fcea78b5f7516e2838d81cf35c5c.spjson"
+
+[deps]
+
+source_file="res://godot3.4.2/hear_tex.json"
+dest_files=[ "res://.import/hear_tex.json-0a28fcea78b5f7516e2838d81cf35c5c.spjson" ]
+
+[params]
+
